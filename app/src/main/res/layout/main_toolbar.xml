@@ -1,47 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal"
-    android:background="@color/backgroundColor">
+    android:background="@color/backgroundColor"
+    android:orientation="horizontal">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/backgroundColor"
         android:minHeight="?attr/actionBarSize"
-        app:titleTextAppearance="@style/ActionBarTitleStyle"
-        >
+        app:titleTextAppearance="@style/ActionBarTitleStyle">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingRight="16dp"
             android:paddingTop="16dp"
-            >
+            android:paddingRight="16dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
+
                 <ImageView
                     android:id="@+id/imageDarkMOde"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_darkmode"/>
+                    android:src="@drawable/ic_darkmode" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:gravity="end">
+
                 <ImageView
                     android:id="@+id/imageMenu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="Menu"
-                    android:src="@drawable/ic_menu"/>
+                    android:src="@drawable/ic_menu" />
 
             </LinearLayout>
         </LinearLayout>

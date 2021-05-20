@@ -4,10 +4,369 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/backgroundColor"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <include layout="@layout/main_toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/timebutton" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/time_peshin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/helveticaroundedbold"
+                            android:gravity="center"
+                            android:text="13:00"
+                            android:textColor="@color/timecolor"
+                            android:textSize="60dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Peshin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/peshin"
+                            android:textColor="@color/textcolor"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/week"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="Dushamba"
+                        android:textColor="@color/textcolor" />
+
+                    <TextView
+                        android:id="@+id/day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="15"
+                        android:textColor="@color/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="-"
+                        android:textColor="@color/textcolor" />
+
+                    <TextView
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="mart"
+                        android:textColor="@color/textcolor" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helveticaroundedbold"
+                    android:text="@string/taqvim"
+                    android:textColor="@color/textcolor"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15sp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:background="@color/backgroundColor"
+                            android:src="@drawable/minitimebutton" />
+
+                        <TextView
+                            android:id="@+id/time_asr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/helveticaroundedbold"
+                            android:gravity="center"
+                            android:text="14:00"
+                            android:textColor="@color/timecolor"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:background="@color/backgroundColor"
+                            android:src="@drawable/minitimebutton" />
+
+                        <TextView
+                            android:id="@+id/time_hufton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/helveticaroundedbold"
+                            android:gravity="center"
+                            android:text="18:40"
+                            android:textColor="@color/timecolor"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="@string/asr"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="@string/hufton"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15sp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:background="@color/backgroundColor"
+                            android:src="@drawable/minitimebutton" />
+
+                        <TextView
+                            android:id="@+id/time_shom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/helveticaroundedbold"
+                            android:gravity="center"
+                            android:text="16:34"
+                            android:textColor="@color/timecolor"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:background="@color/backgroundColor"
+                            android:src="@drawable/minitimebutton" />
+
+                        <TextView
+                            android:id="@+id/time_bomdod"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/helveticaroundedbold"
+                            android:gravity="center"
+                            android:text="05:42"
+                            android:textColor="@color/timecolor"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="@string/shom"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="@string/bomdod"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="80dp"
+                        android:background="@color/backgroundColor"
+                        android:src="@drawable/minitimebutton" />
+
+                    <TextView
+                        android:id="@+id/time_quyosh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:gravity="center"
+                        android:text="18:40"
+                        android:textColor="@color/timecolor"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/helveticaroundedbold"
+                    android:text="@string/quyosh"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/calendar"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/backgroundColor"
+                    android:fontFamily="@font/helveticaroundedbold"
+                    android:gravity="center"
+                    android:text="Calendar"
+                    android:textColor="@color/calendarColor"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    android:theme="@style/Widget.Design.FloatingActionButton"
+                    app:neumorph_lightSource="leftBottom"
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    app:neumorph_shadowElevation="2dp"
+                    app:neumorph_shapeType="pressed">
+
+                </soup.neumorphism.NeumorphButton>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>
