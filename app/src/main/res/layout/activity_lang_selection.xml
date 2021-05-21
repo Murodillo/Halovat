@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".Menus.LangSelectionActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/menu_toolbar" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/helveticaroundedbold"
+        android:text="@string/yaqin_masjid"
+        android:textColor="@color/timecolor"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_uzbek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="O'zbek (Lotin)"
+            android:textColor="@color/calendarColor"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_rus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="Rus tili"
+            android:textColor="@color/calendarColor"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/tv_krill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="O'zbek (Krill)"
+            android:textColor="@color/calendarColor"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout>
