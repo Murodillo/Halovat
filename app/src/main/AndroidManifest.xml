@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
-        <activity android:name=".Menus.TasbehActivity"></activity>
+        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".Menus.FeedbackActivity" />
+        <activity android:name=".Menus.LangSelectionActivity" />
+        <activity android:name=".Menus.RegionSelectionActivity" />
+        <activity android:name=".Menus.TasbehActivity" />
         <activity android:name=".Menus.QiblaActivity" />
         <activity android:name=".Menus.MosquesMapActivity" />
         <activity android:name=".Menus.SettingsActivity" />

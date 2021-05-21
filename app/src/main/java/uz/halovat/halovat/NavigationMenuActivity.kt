@@ -38,7 +38,7 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
 
 
     override fun onClick(p0: View?) {
-        var intent = Intent(this, TasbehActivity::class.java)
+        var intent = Intent()
 
         when (p0?.id) {
             R.id.cv_sozlamalar ->
@@ -49,6 +49,7 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
                 intent = Intent(this, QiblaActivity::class.java)
             R.id.cv_tasbeh ->
                 intent = Intent(this, TasbehActivity::class.java)
+            else -> Intent(this, TasbehActivity::class.java)
         }
 
         startActivity(intent)
