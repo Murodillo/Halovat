@@ -26,7 +26,7 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/imageDarkMOde"
+                    android:id="@+id/iv_dark_mode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_darkmode" />
@@ -40,7 +40,7 @@
                 android:gravity="end">
 
                 <ImageView
-                    android:id="@+id/imageMenu"
+                    android:id="@+id/iv_menu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="Menu"

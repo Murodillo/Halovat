@@ -47,4 +47,8 @@ dependencies {
     // style neumorphism library
     implementation 'com.github.fornewid:neumorphism:0.3.0'
 
+    //Slider
+    implementation 'com.r0adkll:slidableactivity:+'
+    implementation 'com.r0adkll:slidableactivity:2.1.0'
+
 }

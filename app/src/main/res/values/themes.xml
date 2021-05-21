@@ -35,4 +35,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/backgroundColor</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Button">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">8dp</item>
+        <!-- Or if wants different radii depending on the corner. -->
+        <item name="neumorph_cornerSizeTopLeft">8dp</item>
+        <item name="neumorph_cornerSizeTopRight">8dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">8dp</item>
+        <item name="neumorph_cornerSizeBottomRight">8dp</item>
+    </style>
 </resources>

@@ -48,7 +48,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="15dp"
                         android:fontFamily="@font/helveticaroundedbold"
-                        android:text="Dushanba"
+                        android:text="Shanba"
                         android:textColor="@color/textcolor" />
 
                     <TextView
@@ -56,7 +56,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/helveticaroundedbold"
-                        android:text="15"
+                        android:text="22"
                         android:textColor="@color/textcolor" />
 
                     <TextView
@@ -71,7 +71,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/helveticaroundedbold"
-                        android:text="mart"
+                        android:text="may"
                         android:textColor="@color/textcolor" />
 
 
