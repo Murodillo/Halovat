@@ -32,6 +32,8 @@
         <!-- Status bar color. -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/backgroundColor</item>
+        <item name="colorControlNormal">@color/black</item>
+
         <!-- Customize your theme here. -->
     </style>
 

@@ -125,6 +125,30 @@
                 android:textSize="20sp" />
         </soup.neumorphism.NeumorphCardView>
 
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/cv_profil"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/backgroundColor"
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            app:neumorph_shadowElevation="2dp"
+            app:neumorph_shapeAppearance="@style/Button"
+            app:neumorph_shapeType="pressed">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/helveticaroundedbold"
+                android:text="Mening profilim"
+                android:textColor="@color/calendarColor"
+                android:textSize="20sp" />
+        </soup.neumorphism.NeumorphCardView>
+
+
     </LinearLayout>
 
 

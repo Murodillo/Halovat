@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context=".Menus.MosqueInfoActivity">
+
+    <include layout="@layout/menu_toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/helveticaroundedbold"
+        android:text="Afsonalar vodiysi"
+        android:textColor="@color/timecolor"
+        android:textSize="22sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/masjidim" />
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_imom"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="pressed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="Imom"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:gravity="right"
+                        android:text="F.I.Sh"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_imom_noib"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="pressed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="Imom noib"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:gravity="right"
+                        android:text="F.I.Sh"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_muazzin"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="pressed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="Muazzin"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:gravity="right"
+                        android:text="F.I.Sh"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_mutavalli"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="pressed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:text="Mutavalli"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/helveticaroundedbold"
+                        android:gravity="right"
+                        android:text="F.I.Sh"
+                        android:textColor="@color/calendarColor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_aloqa"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+
+                app:neumorph_backgroundColor="@color/timecolor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="flat">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/helveticaroundedbold"
+                    android:text="Aloqa"
+                    android:textColor="@color/backgroundColor"
+                    android:textSize="20sp" />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cv_ehson"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="40dp"
+                app:neumorph_backgroundColor="@color/timecolor"
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                app:neumorph_shadowElevation="2dp"
+                app:neumorph_shapeAppearance="@style/Button"
+                app:neumorph_shapeType="flat">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/helveticaroundedbold"
+                    android:text="Ehson"
+                    android:textColor="@color/backgroundColor"
+                    android:textSize="20sp" />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

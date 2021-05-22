@@ -8,10 +8,7 @@ import com.r0adkll.slidr.Slidr
 import com.r0adkll.slidr.model.SlidrInterface
 import kotlinx.android.synthetic.main.activity_navigation_menu.*
 import kotlinx.android.synthetic.main.menu_toolbar.*
-import uz.halovat.halovat.Menus.MosquesMapActivity
-import uz.halovat.halovat.Menus.QiblaActivity
-import uz.halovat.halovat.Menus.SettingsActivity
-import uz.halovat.halovat.Menus.TasbehActivity
+import uz.halovat.halovat.Menus.*
 
 class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -34,7 +31,7 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
         cv_qibla.setOnClickListener(this)
         cv_tasbeh.setOnClickListener(this)
         cv_yaqin_masjidlar.setOnClickListener(this)
-
+        cv_profil.setOnClickListener(this)
 
     }
 
@@ -46,11 +43,13 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
             R.id.cv_sozlamalar ->
                 intent = Intent(this, SettingsActivity::class.java)
             R.id.cv_yaqin_masjidlar ->
-                intent = Intent(this, MosquesMapActivity::class.java)
+                intent = Intent(this, MosqueInfoActivity::class.java)
             R.id.cv_qibla ->
                 intent = Intent(this, QiblaActivity::class.java)
             R.id.cv_tasbeh ->
                 intent = Intent(this, TasbehActivity::class.java)
+            R.id.cv_profil ->
+                intent = Intent(this, LoginActivity::class.java)
             else -> Intent(this, TasbehActivity::class.java)
         }
 

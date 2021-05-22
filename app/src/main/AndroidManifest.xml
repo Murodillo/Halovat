@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uz.halovat.halovat">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -13,21 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
+        <activity android:name=".Menus.QuestionActivity"></activity>
+        <activity android:name=".Menus.MosqueInfoActivity" />
+        <activity
+            android:name=".Menus.CodeConfirmationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Menus.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Menus.ProfileActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <!--
-             The API key for Google Maps-based APIs.
-        -->
+            android:value="@integer/google_play_services_version" /> <!-- The API key for Google Maps-based APIs. -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
 
-
-
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".BaseActivity" />
         <activity android:name=".Menus.FeedbackActivity" />
         <activity android:name=".Menus.LangSelectionActivity" />
         <activity android:name=".Menus.RegionSelectionActivity" />

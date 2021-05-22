@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".Menus.ProfileActivity">
+
+
+    <include layout="@layout/menu_toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/helveticaroundedbold"
+        android:text="@string/app_name"
+        android:textColor="@color/timecolor"
+        android:textSize="44dp" />
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/logo512"/>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_login"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/backgroundColor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="pressed">
+
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:textColor="@color/calendarColor"
+            android:gravity="center"
+            android:inputType="phone"
+            android:hint="+998 99 123 45 67"
+            android:textColorHint="@color/textcolor"
+            android:textSize="20sp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_send"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="40dp"
+
+        app:neumorph_backgroundColor="@color/timecolor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="flat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="Yuborish"
+            android:textColor="@color/backgroundColor"
+            android:textSize="20sp" />
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+</LinearLayout>
