@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
-        <activity android:name=".Menus.QuestionActivity"></activity>
+        <activity android:name=".Menus.QuestionActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity android:name=".Menus.MosqueInfoActivity" />
         <activity
             android:name=".Menus.CodeConfirmationActivity"
@@ -31,7 +32,8 @@
             android:value="${MAPS_API_KEY}" />
 
         <activity android:name=".BaseActivity" />
-        <activity android:name=".Menus.FeedbackActivity" />
+        <activity android:name=".Menus.FeedbackActivity"
+            android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".Menus.LangSelectionActivity" />
         <activity android:name=".Menus.RegionSelectionActivity" />
         <activity android:name=".Menus.TasbehActivity" />
