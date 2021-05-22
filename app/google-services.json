@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "873688056441",
+    "project_id": "halovat-14bb1",
+    "storage_bucket": "halovat-14bb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873688056441:android:a4eab2b35c7adcf7dfcaa8",
+        "android_client_info": {
+          "package_name": "uz.halovat.halovat.Menus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873688056441-oktrq9oar88iq85mg3v5g5e6b3a3peu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.halovat.halovat.Menus",
+            "certificate_hash": "29e7e7797d7f70febfee042a7158d16c6a761835"
+          }
+        },
+        {
+          "client_id": "873688056441-1sourek6v3vhlq0pnf0v7mf1bujsf6n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjrZTpkJYF8ApOG0nS9pxU06TyHn17TPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873688056441-1sourek6v3vhlq0pnf0v7mf1bujsf6n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
