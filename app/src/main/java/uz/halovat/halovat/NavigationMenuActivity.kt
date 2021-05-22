@@ -43,7 +43,7 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
             R.id.cv_sozlamalar ->
                 intent = Intent(this, SettingsActivity::class.java)
             R.id.cv_yaqin_masjidlar ->
-                intent = Intent(this, MosqueInfoActivity::class.java)
+                intent = Intent(this, MosquesMapActivity::class.java)
             R.id.cv_qibla ->
                 intent = Intent(this, QiblaActivity::class.java)
             R.id.cv_tasbeh ->

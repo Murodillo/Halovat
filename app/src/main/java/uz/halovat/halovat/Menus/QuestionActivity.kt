@@ -21,7 +21,7 @@ class QuestionActivity : AppCompatActivity() {
 
         cv_send.setOnClickListener {
             Toast.makeText(this, "Savol yo'llandi...", Toast.LENGTH_SHORT).show()
-            finish()
+            onBackPressed()
         }
     }
 

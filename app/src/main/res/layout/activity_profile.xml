@@ -11,6 +11,162 @@
 
     <include layout="@layout/menu_toolbar"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/helveticaroundedbold"
+        android:text="Profil"
+        android:textColor="@color/timecolor"
+        android:textSize="22sp" />
 
 
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/backgroundColor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="pressed">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="@font/helveticaroundedbold"
+                android:gravity="center"
+                android:text="Murodillo Ismatov"
+                android:textColor="@color/calendarColor"
+                android:textSize="20sp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_gender"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/backgroundColor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="pressed">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:gravity="center"
+            android:hint="Jinsi"
+            android:textColorHint="#9C9595"
+            android:textColor="@color/calendarColor"
+            android:textSize="20sp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_address"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/backgroundColor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="pressed">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:gravity="center"
+            android:hint="Manzil"
+            android:textColorHint="#9C9595"
+            android:textColor="@color/calendarColor"
+            android:textSize="20sp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/backgroundColor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="pressed">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:gravity="center"
+            android:hint="Tug'ilgan sanasi"
+            android:textColorHint="#9C9595"
+            android:textColor="@color/calendarColor"
+            android:textSize="20sp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_save"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+        app:neumorph_backgroundColor="@color/timecolor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="flat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="Saqlash"
+            android:textColor="@color/backgroundColor"
+            android:textSize="20sp" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_logout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+        app:neumorph_backgroundColor="@color/timecolor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="flat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="Profildan chiqish"
+            android:textColor="@color/backgroundColor"
+            android:textSize="20sp" />
+    </soup.neumorphism.NeumorphCardView>
 </LinearLayout>

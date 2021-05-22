@@ -14,7 +14,30 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
 
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/cv_masjid_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
 
+        app:neumorph_backgroundColor="@color/timecolor"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="2dp"
+        app:neumorph_shapeAppearance="@style/Button"
+        app:neumorph_shapeType="flat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helveticaroundedbold"
+            android:text="Masjid"
+            android:textColor="@color/backgroundColor"
+            android:textSize="20sp" />
+    </soup.neumorphism.NeumorphCardView>
 </LinearLayout>

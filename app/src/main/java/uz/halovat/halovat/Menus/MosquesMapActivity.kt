@@ -1,5 +1,6 @@
 package uz.halovat.halovat.Menus
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -28,6 +29,12 @@ class MosquesMapActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as? SupportMapFragment
         mapFragment?.getMapAsync(this)
 
+
+        cv_masjid_info.setOnClickListener {
+            val intent = Intent(this, MosqueInfoActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.anim_right_to_left, R.anim.anim_left_to_right)
+        }
 
 
 
