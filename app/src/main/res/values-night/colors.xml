@@ -15,5 +15,6 @@
     <color name="backgroundColor">#363636</color>
     <color name="solid_light_color">#2c2c2c</color>
     <color name="solid_dark_color">#111111</color>
+    <color name="selected_color">#3D700A</color>
 
 </resources>
