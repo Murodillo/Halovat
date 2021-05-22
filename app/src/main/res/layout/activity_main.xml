@@ -103,7 +103,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/helveticaroundedbold"
                             android:gravity="center"
-                            android:text="13:00"
+                            android:text="12:07"
                             android:textColor="@color/timecolor"
                             android:textSize="60dp"
                             android:textStyle="bold" />
@@ -158,7 +158,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/helveticaroundedbold"
                             android:gravity="center"
-                            android:text="14:00"
+                            android:text="17:15"
                             android:textColor="@color/timecolor"
                             android:textSize="32dp"
                             android:textStyle="bold" />
@@ -195,7 +195,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/helveticaroundedbold"
                             android:gravity="center"
-                            android:text="18:40"
+                            android:text="21:01"
                             android:textColor="@color/timecolor"
                             android:textSize="32dp"
                             android:textStyle="bold" />
@@ -244,7 +244,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/helveticaroundedbold"
                             android:gravity="center"
-                            android:text="16:34"
+                            android:text="19:33"
                             android:textColor="@color/timecolor"
                             android:textSize="32dp"
                             android:textStyle="bold" />
@@ -282,7 +282,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/helveticaroundedbold"
                             android:gravity="center"
-                            android:text="05:42"
+                            android:text="03:09"
                             android:textColor="@color/timecolor"
                             android:textSize="32dp"
                             android:textStyle="bold" />
@@ -329,7 +329,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/helveticaroundedbold"
                         android:gravity="center"
-                        android:text="18:40"
+                        android:text="04:48"
                         android:textColor="@color/timecolor"
                         android:textSize="32dp"
                         android:textStyle="bold" />
@@ -349,7 +349,7 @@
 
 
                 <soup.neumorphism.NeumorphButton
-                    android:id="@+id/calendar"
+                    android:id="@+id/btn_calendar"
                     android:layout_width="240dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"

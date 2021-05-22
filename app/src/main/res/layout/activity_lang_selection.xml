@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/helveticaroundedbold"
-        android:text="@string/yaqin_masjid"
+        android:text="Tilni tanlash"
         android:textColor="@color/timecolor"
         android:textSize="24dp" />
 

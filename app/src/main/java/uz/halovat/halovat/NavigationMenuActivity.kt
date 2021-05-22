@@ -24,6 +24,8 @@ class NavigationMenuActivity : AppCompatActivity(), View.OnClickListener {
         slidr = Slidr.attach(this)
         setSupportActionBar(toolbarformenu)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = ""
+
         toolbarformenu.setNavigationOnClickListener {
             onBackPressed()
         }
