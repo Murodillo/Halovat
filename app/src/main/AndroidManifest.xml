@@ -22,7 +22,8 @@
         <activity
             android:name=".Menus.LoginActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".Menus.ProfileActivity" />
+        <activity android:name=".Menus.ProfileActivity"
+            android:windowSoftInputMode="adjustResize"/>
 
         <meta-data
             android:name="com.google.android.gms.version"

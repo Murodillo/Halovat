@@ -3,6 +3,7 @@ package uz.halovat.halovat.Menus
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_mosque_info.*
 import kotlinx.android.synthetic.main.menu_toolbar.*
 import uz.halovat.halovat.R
@@ -13,7 +14,7 @@ class MosqueInfoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mosque_info)
         setSupportActionBar(toolbarformenu)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = "Xarita"
+        supportActionBar?.title = ""
         toolbarformenu.setNavigationOnClickListener {
             onBackPressed()
         }
@@ -23,6 +24,10 @@ class MosqueInfoActivity : AppCompatActivity() {
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.anim_right_to_left, R.anim.anim_left_to_right)
+        }
+
+        cv_ehson.setOnClickListener {
+            Toast.makeText(this, "<<< SOON >>>", Toast.LENGTH_SHORT ).show()
         }
 
     }
